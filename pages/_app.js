@@ -4,7 +4,7 @@ import "../styles/elements.css"
 import Home from "./index"
 import Head from "next/head"
 
-export const config = { amp: true }
+//export const config = { amp: true }
 
 const App = () => <>
         <Head>
