@@ -4,6 +4,8 @@ import "../styles/elements.css"
 import Home from "./index"
 import Head from "next/head"
 
+export const config = { amp: true }
+
 const App = () => <>
         <Head>
             <meta property="og:title" content="Taskia" key="title" />
