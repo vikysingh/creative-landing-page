@@ -1,0 +1,35 @@
+{
+    "navbar": {
+        "brand": "Taskia",
+        "btnText": "Try free"
+    },
+    "header": {
+        "title": "Task manage ment and lists Tool",
+        "paragraph": "We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business."
+    },
+    "cardSection": {
+        "title": "Featured Service that We Provide",
+        "cards": { 
+            "title": "Keep tasks in one place",
+            "paragraph": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
+            "backgrounds": [ "#525FFB" , "#E9F0FF", "#FFE7AA" ]
+        }
+    },
+    "dashboard": {
+        "title": "Why do you need task management software?",
+        "paragraph": "Do you waste time organizing sticky notes, searching your email and apps Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.",
+        "btnText": "Learn more"
+    },
+    "promotion": {
+        "title": "Seamless Team Workflow & Efficient Task Management",
+        "paragraph": "Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines."
+    },
+    "testimonials": {
+        "title": "Trust us and feel free to try our service",
+        "number": "100 000"
+    },
+    "footer": {
+        "title": "Get better work done",
+        "paragraph": "See why millions of people across 195 countries use Dash."
+    }
+}

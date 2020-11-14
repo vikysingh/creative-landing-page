@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav span {
+    font-weight: bolder;
+    color: #525FFB;
+}
+
+header {
+    padding: 0 5%;
+}
+
+header img {
+    width: 100%;
+}
+
+.card-section, .dashboard-section, .promotion-section, .testimonials-section, .footer {
+    padding: 5%;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-section > div > div:nth-child(2) {
+    margin-top: 50px;
+}
+
+.dashboard-section > div >div:last-child {
+    width: 75%;
+}
+
+.dashboard-section img {
+    width: 95%;
+}
+
+.dashboard-section button {
+    margin-top: 10%;
+    padding: 15px 25px;
+}
+
+.promotion-section > div > div:first-child {
+    width: 85%;
+}
+
+.promotion-section .promotion-section-icons-container {
+    display: inline;
+}
+
+.promotion-section .promotion-section-icons-container img {
+    width: 30px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.promotion-section .promotion-section-icons-container > img:last-child {
+    width: 55px;
+    height: auto;
+}
+
+.promotion-section .promotion-section-right-image {
+    width: 100%;
+}
+
+.testimonials-section {
+    text-align: center;
+}
+
+.testimonials-section > h1 {
+    color: #525FFB;
+}
+
+.testimonials-section img {
+    position: relative;
+    transform: scale(0.5);
+}
+
+.testimonials-section img:nth-child(3) {
+    top: -20vw;
+    left: -15vw;
+}
+
+.testimonials-section img:nth-child(4) {
+    top: -10vw;
+    left: -10vw;
+}
+
+.testimonials-section img:nth-child(5) {
+    top: 5vw;
+    left: -35vw;
+    transform: scale(0.4);
+}
+
+.testimonials-section img:nth-child(6) {
+    top: -20vw;
+    left: 30vw;
+}
+
+.testimonials-section img:nth-child(7) {
+    top: 5vw;
+    right: -20vw;
+}
+
+.testimonials-section img:nth-child(8) {
+    top: -10vw;
+    /* right: -0vw; */
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .card-section > div {
+        flex-wrap: wrap;
+    }
+
+    .testimonials-section img {
+        display: none;
+    }
+
+    .dashboard-section > div >div:last-child, .promotion-section > div > div:first-child {
+        width: 95%;
+    }
+}
